@@ -1,0 +1,126 @@
+p {
+  margin-top: 1rem;
+}
+
+body {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+}
+
+.franja-superior {
+  background: #921212;
+  min-height: 16vh;
+}
+
+.franja-superior h1,
+.franja-superior h3 {
+  text-align: start;
+  color: white;
+}
+
+.franja-superior img {
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  display: inline-block;
+  margin: 5px 5px;
+}
+.centrar {
+  text-align: center;
+  display: inline-grid;
+  align-content: space-evenly;
+}
+
+.user-img-container {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* FRANJA IZQUIERDA */
+
+.list-group-flush .list-group-item {
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+  border-top: 0;
+  border-bottom: 0;
+}
+.resumen {
+  margin-top: 30px;
+}
+
+.caracteristicas {
+  background: #ebf9ff;
+  width: 350px;
+  height: 100%;
+  padding: 35px 25px;
+}
+.iconos-de-user {
+  margin-right: 10px;
+}
+
+.contacto .list-group li {
+  background: transparent;
+  margin: 5px 5px;
+}
+
+/* FRANJA DERECHA  */
+
+
+
+
+.contenido {
+  padding: 35px;
+}
+.habilidades {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+
+.hidden-info {
+  display: none;
+}
+.visible-info {
+  display: block;
+}
+.noclicleable {
+  pointer-events: none;
+}
+
+.texto-derecha {
+  text-align: end;
+}
+.d-flex {
+  display: -ms-flexbox!important;
+  
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+@media (max-width: 281px){
+.ajuste-lista{
+  font-size: 0.85rem;
+}
+}
